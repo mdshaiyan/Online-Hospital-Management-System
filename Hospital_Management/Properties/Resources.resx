@@ -118,14 +118,14 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="healthcare-background-8u6l9oyzn67dtdas1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\healthcare-background-8u6l9oyzn67dtdas1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="hospital logo" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\hospital logo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="health-care-icon-pattern-medical-innovation-concept-background-design-vector" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\health-care-icon-pattern-medical-innovation-concept-background-design-vector.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="cashhier" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cashhier.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="healthcare-background-8u6l9oyzn67dtdas1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\healthcare-background-8u6l9oyzn67dtdas1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="pngtree-abstract-blur-hospital-clinic-counter-interior-defocused-medical-background-image_15646915" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\pngtree-abstract-blur-hospital-clinic-counter-interior-defocused-medical-background-image_15646915.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -154,13 +154,16 @@
   <data name="health-care-icon-pattern-medical-innovation-concept-background-design-vector1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\health-care-icon-pattern-medical-innovation-concept-background-design-vector1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="health-care-icon-pattern-medical-innovation-concept-background-design-vector" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\health-care-icon-pattern-medical-innovation-concept-background-design-vector.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="white-modern-medical-wallpaper-geometric-hexagon-medical-icons-technology-background-vector" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\white-modern-medical-wallpaper-geometric-hexagon-medical-icons-technology-background-vector.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="ChatGPT Image Sep 6, 2026, 01_03_00 AM" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ChatGPT Image Sep 6, 2026, 01_03_00 AM.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="cashhier" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\cashhier.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="574-1024x512" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\574-1024x512.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>
