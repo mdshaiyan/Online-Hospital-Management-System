@@ -42,9 +42,9 @@
             // label1
             // 
             label1.AutoSize = true;
-            label1.BackColor = Color.LightYellow;
+            label1.BackColor = Color.Gold;
             label1.Font = new Font("Times New Roman", 24.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label1.Location = new Point(329, 66);
+            label1.Location = new Point(342, 59);
             label1.Name = "label1";
             label1.Size = new Size(112, 37);
             label1.TabIndex = 1;
@@ -56,7 +56,7 @@
             menuStrip1.Items.AddRange(new ToolStripItem[] { backToolStripMenuItem });
             menuStrip1.Location = new Point(0, 0);
             menuStrip1.Name = "menuStrip1";
-            menuStrip1.Size = new Size(803, 24);
+            menuStrip1.Size = new Size(861, 24);
             menuStrip1.TabIndex = 3;
             menuStrip1.Text = "menuStrip1";
             // 
@@ -72,7 +72,7 @@
             btnDoctor.BackColor = Color.MediumPurple;
             btnDoctor.Font = new Font("Times New Roman", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
             btnDoctor.ForeColor = Color.Black;
-            btnDoctor.Location = new Point(254, 125);
+            btnDoctor.Location = new Point(213, 125);
             btnDoctor.Name = "btnDoctor";
             btnDoctor.Size = new Size(65, 40);
             btnDoctor.TabIndex = 4;
@@ -85,7 +85,7 @@
             btnCashier.BackColor = Color.MediumSpringGreen;
             btnCashier.Font = new Font("Times New Roman", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
             btnCashier.ForeColor = Color.Black;
-            btnCashier.Location = new Point(450, 125);
+            btnCashier.Location = new Point(501, 125);
             btnCashier.Name = "btnCashier";
             btnCashier.Size = new Size(66, 40);
             btnCashier.TabIndex = 5;
@@ -99,7 +99,7 @@
             dgvStaff.AllowUserToDeleteRows = false;
             dgvStaff.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
             dgvStaff.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dgvStaff.Location = new Point(44, 171);
+            dgvStaff.Location = new Point(53, 186);
             dgvStaff.MultiSelect = false;
             dgvStaff.Name = "dgvStaff";
             dgvStaff.ReadOnly = true;
@@ -113,9 +113,9 @@
             btnCalculate.BackColor = Color.MistyRose;
             btnCalculate.Font = new Font("Times New Roman", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
             btnCalculate.ForeColor = Color.Blue;
-            btnCalculate.Location = new Point(678, 415);
+            btnCalculate.Location = new Point(351, 444);
             btnCalculate.Name = "btnCalculate";
-            btnCalculate.Size = new Size(75, 23);
+            btnCalculate.Size = new Size(83, 35);
             btnCalculate.TabIndex = 7;
             btnCalculate.Text = "Create";
             btnCalculate.UseVisualStyleBackColor = false;
@@ -125,8 +125,8 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            BackgroundImage = Properties.Resources.white_modern_medical_wallpaper_geometric_hexagon_medical_icons_technology_background_vector;
-            ClientSize = new Size(803, 449);
+            BackgroundImage = Properties.Resources._574_1024x512;
+            ClientSize = new Size(861, 556);
             Controls.Add(btnCalculate);
             Controls.Add(dgvStaff);
             Controls.Add(btnCashier);
