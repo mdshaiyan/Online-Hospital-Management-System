@@ -103,6 +103,16 @@ namespace Hospital_Management.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap ChatGPT_Image_Sep_7__2026__08_37_07_PM {
+            get {
+                object obj = ResourceManager.GetObject("ChatGPT Image Sep 7, 2026, 08_37_07 PM", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Gemini_Generated_Image_eqymmzeqymmzeqym {
             get {
                 object obj = ResourceManager.GetObject("Gemini_Generated_Image_eqymmzeqymmzeqym", resourceCulture);
