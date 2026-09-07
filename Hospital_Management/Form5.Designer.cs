@@ -43,8 +43,9 @@
             // label1
             // 
             label1.AutoSize = true;
+            label1.BackColor = Color.PaleTurquoise;
             label1.Font = new Font("Times New Roman", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label1.Location = new Point(264, 154);
+            label1.Location = new Point(244, 217);
             label1.Name = "label1";
             label1.Size = new Size(54, 19);
             label1.TabIndex = 0;
@@ -53,8 +54,9 @@
             // label2
             // 
             label2.AutoSize = true;
+            label2.BackColor = Color.Crimson;
             label2.Font = new Font("Times New Roman", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label2.Location = new Point(249, 198);
+            label2.Location = new Point(226, 260);
             label2.Name = "label2";
             label2.Size = new Size(72, 19);
             label2.TabIndex = 0;
@@ -63,7 +65,7 @@
             // tbxSName
             // 
             tbxSName.BackColor = SystemColors.Info;
-            tbxSName.Location = new Point(343, 152);
+            tbxSName.Location = new Point(313, 213);
             tbxSName.Name = "tbxSName";
             tbxSName.Size = new Size(210, 23);
             tbxSName.TabIndex = 1;
@@ -71,7 +73,7 @@
             // tbxSPass
             // 
             tbxSPass.BackColor = SystemColors.Info;
-            tbxSPass.Location = new Point(343, 198);
+            tbxSPass.Location = new Point(313, 256);
             tbxSPass.Name = "tbxSPass";
             tbxSPass.Size = new Size(210, 23);
             tbxSPass.TabIndex = 1;
@@ -79,18 +81,20 @@
             // label3
             // 
             label3.AutoSize = true;
+            label3.BackColor = Color.SkyBlue;
             label3.Font = new Font("Times New Roman", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label3.Location = new Point(275, 245);
+            label3.Location = new Point(258, 301);
             label3.Name = "label3";
             label3.Size = new Size(40, 19);
             label3.TabIndex = 0;
             label3.Text = "Role:";
+            label3.Click += label3_Click;
             // 
             // btnSignup
             // 
             btnSignup.BackColor = Color.Yellow;
             btnSignup.Font = new Font("Times New Roman", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            btnSignup.Location = new Point(393, 296);
+            btnSignup.Location = new Point(346, 348);
             btnSignup.Name = "btnSignup";
             btnSignup.Size = new Size(80, 37);
             btnSignup.TabIndex = 2;
@@ -103,7 +107,7 @@
             cbSignUp.DropDownStyle = ComboBoxStyle.DropDownList;
             cbSignUp.FormattingEnabled = true;
             cbSignUp.Items.AddRange(new object[] { "Patient", "Admin" });
-            cbSignUp.Location = new Point(343, 247);
+            cbSignUp.Location = new Point(313, 301);
             cbSignUp.Name = "cbSignUp";
             cbSignUp.Size = new Size(161, 23);
             cbSignUp.TabIndex = 3;
@@ -128,7 +132,7 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            BackgroundImage = Properties.Resources.sifat;
+            BackgroundImage = Properties.Resources.nimi;
             ClientSize = new Size(800, 450);
             Controls.Add(cbSignUp);
             Controls.Add(btnSignup);

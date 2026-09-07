@@ -223,10 +223,50 @@ namespace Hospital_Management.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap jani {
+            get {
+                object obj = ResourceManager.GetObject("jani", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap merge {
+            get {
+                object obj = ResourceManager.GetObject("merge", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap nimi {
+            get {
+                object obj = ResourceManager.GetObject("nimi", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap pngtree_abstract_blur_hospital_clinic_counter_interior_defocused_medical_background_image_15646915 {
             get {
                 object obj = ResourceManager.GetObject("pngtree-abstract-blur-hospital-clinic-counter-interior-defocused-medical-backgrou" +
                         "nd-image_15646915", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap recep__1_ {
+            get {
+                object obj = ResourceManager.GetObject("recep (1)", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

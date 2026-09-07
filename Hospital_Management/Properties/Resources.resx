@@ -121,17 +121,20 @@
   <data name="hospital logo" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\hospital logo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="resep (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\resep (1).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="ChatGPT Image Sep 6, 2026, 01_03_00 AM" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ChatGPT Image Sep 6, 2026, 01_03_00 AM.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="reception (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\reception (1).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="debo" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\debo.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Gemini_Generated_Image_eqymmzeqymmzeqym-Photoroom" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Gemini_Generated_Image_eqymmzeqymmzeqym-Photoroom.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="cashhier" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\cashhier.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="recep (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\recep (1).jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="healthcare-background-8u6l9oyzn67dtdas1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\healthcare-background-8u6l9oyzn67dtdas1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -148,11 +151,14 @@
   <data name="574-1024x512" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\574-1024x512.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="reception (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\reception (1).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Gemini_Generated_Image_eqymmzeqymmzeqym-Photoroom" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Gemini_Generated_Image_eqymmzeqymmzeqym-Photoroom.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Gemini_Generated_Image_rsvf82rsvf82rsvf" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Gemini_Generated_Image_rsvf82rsvf82rsvf.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sifat" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\sifat.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="healthcare-background-8u6l9oyzn67dtdas" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\healthcare-background-8u6l9oyzn67dtdas.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -160,8 +166,8 @@
   <data name="gettyimages-1606689641-2048x2048" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\gettyimages-1606689641-2048x2048.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="3241965" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\3241965.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="resep (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\resep (1).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Gemini_Generated_Image_eqymmzeqymmzeqym" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Gemini_Generated_Image_eqymmzeqymmzeqym.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -169,8 +175,11 @@
   <data name="Gemini_Generated_Image_qpr14mqpr14mqpr1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Gemini_Generated_Image_qpr14mqpr14mqpr1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="health-care-icon-pattern-medical-innovation-concept-background-design-vector1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\health-care-icon-pattern-medical-innovation-concept-background-design-vector1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="merge" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\merge.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="jani" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\jani.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="health-care-icon-pattern-medical-innovation-concept-background-design-vector" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\health-care-icon-pattern-medical-innovation-concept-background-design-vector.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -178,10 +187,13 @@
   <data name="white-modern-medical-wallpaper-geometric-hexagon-medical-icons-technology-background-vector" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\white-modern-medical-wallpaper-geometric-hexagon-medical-icons-technology-background-vector.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="ChatGPT Image Sep 6, 2026, 01_03_00 AM" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\ChatGPT Image Sep 6, 2026, 01_03_00 AM.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="health-care-icon-pattern-medical-innovation-concept-background-design-vector1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\health-care-icon-pattern-medical-innovation-concept-background-design-vector1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="sifat" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\sifat.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="3241965" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\3241965.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="nimi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\nimi.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>
