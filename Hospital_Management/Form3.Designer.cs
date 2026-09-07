@@ -49,9 +49,10 @@
             // label1
             // 
             label1.AutoSize = true;
-            label1.BackColor = Color.Transparent;
+            label1.BackColor = Color.SlateBlue;
             label1.Font = new Font("Times New Roman", 20.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label1.Location = new Point(318, 50);
+            label1.ForeColor = Color.Black;
+            label1.Location = new Point(358, 40);
             label1.Name = "label1";
             label1.Size = new Size(95, 31);
             label1.TabIndex = 0;
@@ -60,9 +61,10 @@
             // 
             // tbxDPatient
             // 
-            tbxDPatient.Location = new Point(253, 107);
+            tbxDPatient.BackColor = SystemColors.Info;
+            tbxDPatient.Location = new Point(329, 99);
             tbxDPatient.Name = "tbxDPatient";
-            tbxDPatient.Size = new Size(231, 23);
+            tbxDPatient.Size = new Size(180, 23);
             tbxDPatient.TabIndex = 3;
             // 
             // label2
@@ -70,7 +72,7 @@
             label2.AutoSize = true;
             label2.BackColor = Color.Aquamarine;
             label2.Font = new Font("Segoe UI", 12F);
-            label2.Location = new Point(187, 109);
+            label2.Location = new Point(263, 99);
             label2.Name = "label2";
             label2.Size = new Size(60, 21);
             label2.TabIndex = 4;
@@ -79,8 +81,8 @@
             // 
             // btnDSearch
             // 
-            btnDSearch.BackColor = SystemColors.Info;
-            btnDSearch.Location = new Point(507, 107);
+            btnDSearch.BackColor = Color.Crimson;
+            btnDSearch.Location = new Point(368, 142);
             btnDSearch.Name = "btnDSearch";
             btnDSearch.Size = new Size(75, 23);
             btnDSearch.TabIndex = 5;
@@ -93,7 +95,7 @@
             menuStrip1.Items.AddRange(new ToolStripItem[] { backToolStripMenuItem });
             menuStrip1.Location = new Point(0, 0);
             menuStrip1.Name = "menuStrip1";
-            menuStrip1.Size = new Size(800, 24);
+            menuStrip1.Size = new Size(809, 24);
             menuStrip1.TabIndex = 7;
             menuStrip1.Text = "menuStrip1";
             // 
@@ -111,13 +113,14 @@
             dgvPatient.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
             dgvPatient.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             dgvPatient.Columns.AddRange(new DataGridViewColumn[] { PatientID, ViewHistory, Prescription, Blood_Group, PatientName, Age, Gender });
-            dgvPatient.Location = new Point(12, 154);
+            dgvPatient.Location = new Point(12, 171);
             dgvPatient.MultiSelect = false;
             dgvPatient.Name = "dgvPatient";
             dgvPatient.ReadOnly = true;
             dgvPatient.SelectionMode = DataGridViewSelectionMode.FullRowSelect;
             dgvPatient.Size = new Size(776, 267);
             dgvPatient.TabIndex = 8;
+            dgvPatient.CellContentClick += dgvPatient_CellContentClick_1;
             // 
             // PatientID
             // 
@@ -174,15 +177,17 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            BackgroundImage = Properties.Resources.pngtree_abstract_blur_hospital_clinic_counter_interior_defocused_medical_background_image_15646915;
-            ClientSize = new Size(800, 450);
+            BackgroundImage = Properties.Resources._360_F_258285187_AKQGj597Igj8mb8ClNh3asSfhKDpgoWg;
+            ClientSize = new Size(809, 450);
             Controls.Add(dgvPatient);
             Controls.Add(menuStrip1);
             Controls.Add(btnDSearch);
             Controls.Add(label2);
             Controls.Add(tbxDPatient);
             Controls.Add(label1);
+            MaximizeBox = false;
             Name = "doctorForm";
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "Form3";
             Load += doctorForm_Load;
             menuStrip1.ResumeLayout(false);
