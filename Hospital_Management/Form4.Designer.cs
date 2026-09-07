@@ -43,54 +43,58 @@
             // lblCashier
             // 
             lblCashier.AutoSize = true;
-            lblCashier.Font = new Font("Segoe UI", 25F);
-            lblCashier.Location = new Point(363, 80);
+            lblCashier.BackColor = Color.IndianRed;
+            lblCashier.Font = new Font("Times New Roman", 24.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            lblCashier.Location = new Point(491, 50);
             lblCashier.Name = "lblCashier";
-            lblCashier.Size = new Size(161, 57);
+            lblCashier.Size = new Size(127, 37);
             lblCashier.TabIndex = 0;
             lblCashier.Text = "Cashier";
+            lblCashier.Click += lblCashier_Click;
             // 
             // itemPanel
             // 
             itemPanel.AutoScroll = true;
             itemPanel.Controls.Add(btnAdd);
-            itemPanel.Location = new Point(113, 209);
-            itemPanel.Margin = new Padding(3, 4, 3, 4);
+            itemPanel.Location = new Point(297, 192);
             itemPanel.Name = "itemPanel";
-            itemPanel.Size = new Size(589, 293);
+            itemPanel.Size = new Size(503, 209);
             itemPanel.TabIndex = 3;
             // 
             // btnAdd
             // 
+            btnAdd.BackColor = SystemColors.Info;
             btnAdd.Font = new Font("Segoe UI", 12F);
-            btnAdd.Location = new Point(457, 29);
-            btnAdd.Margin = new Padding(3, 4, 3, 4);
+            btnAdd.Location = new Point(400, 22);
             btnAdd.Name = "btnAdd";
-            btnAdd.Size = new Size(52, 60);
+            btnAdd.Size = new Size(46, 45);
             btnAdd.TabIndex = 3;
             btnAdd.Text = "+";
-            btnAdd.UseVisualStyleBackColor = true;
+            btnAdd.UseVisualStyleBackColor = false;
             btnAdd.Click += btnAdd_Click;
             // 
             // lblPrice
             // 
             lblPrice.AutoSize = true;
-            lblPrice.Font = new Font("Segoe UI", 15F);
-            lblPrice.Location = new Point(363, 536);
+            lblPrice.BackColor = Color.DeepSkyBlue;
+            lblPrice.Font = new Font("Times New Roman", 15F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            lblPrice.Location = new Point(297, 404);
             lblPrice.Name = "lblPrice";
-            lblPrice.Size = new Size(76, 35);
+            lblPrice.Size = new Size(68, 23);
             lblPrice.TabIndex = 4;
-            lblPrice.Text = "Price ";
+            lblPrice.Text = "Price:-";
             // 
             // label1
             // 
             label1.AutoSize = true;
-            label1.Font = new Font("Segoe UI", 10F);
-            label1.Location = new Point(113, 180);
+            label1.BackColor = Color.Fuchsia;
+            label1.Font = new Font("Times New Roman", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label1.Location = new Point(297, 170);
             label1.Name = "label1";
-            label1.Size = new Size(100, 23);
+            label1.Size = new Size(89, 19);
             label1.TabIndex = 1;
             label1.Text = "Item Name:";
+            label1.Click += label1_Click;
             // 
             // menuStrip1
             // 
@@ -98,25 +102,24 @@
             menuStrip1.Items.AddRange(new ToolStripItem[] { backToolStripMenuItem });
             menuStrip1.Location = new Point(0, 0);
             menuStrip1.Name = "menuStrip1";
-            menuStrip1.Padding = new Padding(7, 3, 0, 3);
-            menuStrip1.Size = new Size(914, 30);
+            menuStrip1.Size = new Size(800, 24);
             menuStrip1.TabIndex = 4;
             menuStrip1.Text = "menuStrip1";
             // 
             // backToolStripMenuItem
             // 
             backToolStripMenuItem.Name = "backToolStripMenuItem";
-            backToolStripMenuItem.Size = new Size(54, 24);
+            backToolStripMenuItem.Size = new Size(44, 20);
             backToolStripMenuItem.Text = "Back";
             backToolStripMenuItem.Click += backToolStripMenuItem_Click;
             // 
             // btnCalculate
             // 
-            btnCalculate.Font = new Font("Segoe UI", 15F);
-            btnCalculate.Location = new Point(724, 443);
-            btnCalculate.Margin = new Padding(3, 4, 3, 4);
+            btnCalculate.Font = new Font("Times New Roman", 15F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            btnCalculate.ForeColor = SystemColors.MenuHighlight;
+            btnCalculate.Location = new Point(671, 403);
             btnCalculate.Name = "btnCalculate";
-            btnCalculate.Size = new Size(167, 59);
+            btnCalculate.Size = new Size(117, 31);
             btnCalculate.TabIndex = 5;
             btnCalculate.Text = "Calculate";
             btnCalculate.UseVisualStyleBackColor = true;
@@ -124,17 +127,16 @@
             // 
             // cashierForm
             // 
-            AutoScaleDimensions = new SizeF(8F, 20F);
+            AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            BackgroundImage = Properties.Resources.cashhier;
-            ClientSize = new Size(914, 600);
+            BackgroundImage = Properties.Resources.updateboy;
+            ClientSize = new Size(800, 450);
             Controls.Add(btnCalculate);
             Controls.Add(lblPrice);
             Controls.Add(label1);
             Controls.Add(menuStrip1);
             Controls.Add(itemPanel);
             Controls.Add(lblCashier);
-            Margin = new Padding(3, 4, 3, 4);
             Name = "cashierForm";
             Text = "Form4";
             itemPanel.ResumeLayout(false);

@@ -44,7 +44,7 @@
             label1.AutoSize = true;
             label1.BackColor = Color.Gold;
             label1.Font = new Font("Times New Roman", 24.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label1.Location = new Point(342, 59);
+            label1.Location = new Point(378, 42);
             label1.Name = "label1";
             label1.Size = new Size(112, 37);
             label1.TabIndex = 1;
@@ -72,9 +72,9 @@
             btnDoctor.BackColor = Color.MediumPurple;
             btnDoctor.Font = new Font("Times New Roman", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
             btnDoctor.ForeColor = Color.Black;
-            btnDoctor.Location = new Point(213, 125);
+            btnDoctor.Location = new Point(259, 116);
             btnDoctor.Name = "btnDoctor";
-            btnDoctor.Size = new Size(65, 40);
+            btnDoctor.Size = new Size(82, 51);
             btnDoctor.TabIndex = 4;
             btnDoctor.Text = "Doctor";
             btnDoctor.UseVisualStyleBackColor = false;
@@ -85,9 +85,9 @@
             btnCashier.BackColor = Color.MediumSpringGreen;
             btnCashier.Font = new Font("Times New Roman", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
             btnCashier.ForeColor = Color.Black;
-            btnCashier.Location = new Point(501, 125);
+            btnCashier.Location = new Point(516, 116);
             btnCashier.Name = "btnCashier";
-            btnCashier.Size = new Size(66, 40);
+            btnCashier.Size = new Size(78, 51);
             btnCashier.TabIndex = 5;
             btnCashier.Text = "Cashier";
             btnCashier.UseVisualStyleBackColor = false;
@@ -99,13 +99,14 @@
             dgvStaff.AllowUserToDeleteRows = false;
             dgvStaff.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
             dgvStaff.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dgvStaff.Location = new Point(53, 186);
+            dgvStaff.Location = new Point(87, 185);
             dgvStaff.MultiSelect = false;
             dgvStaff.Name = "dgvStaff";
             dgvStaff.ReadOnly = true;
             dgvStaff.SelectionMode = DataGridViewSelectionMode.FullRowSelect;
             dgvStaff.Size = new Size(709, 232);
             dgvStaff.TabIndex = 6;
+            dgvStaff.CellContentClick += dgvStaff_CellContentClick;
             dgvStaff.CellDoubleClick += dgvStaff_CellDoubleClick;
             // 
             // btnCalculate
@@ -113,9 +114,9 @@
             btnCalculate.BackColor = Color.MistyRose;
             btnCalculate.Font = new Font("Times New Roman", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
             btnCalculate.ForeColor = Color.Blue;
-            btnCalculate.Location = new Point(351, 444);
+            btnCalculate.Location = new Point(378, 440);
             btnCalculate.Name = "btnCalculate";
-            btnCalculate.Size = new Size(83, 35);
+            btnCalculate.Size = new Size(95, 37);
             btnCalculate.TabIndex = 7;
             btnCalculate.Text = "Create";
             btnCalculate.UseVisualStyleBackColor = false;
