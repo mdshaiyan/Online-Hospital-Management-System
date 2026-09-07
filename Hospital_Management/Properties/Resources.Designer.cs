@@ -73,26 +73,6 @@ namespace Hospital_Management.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap _360_F_258285187_AKQGj597Igj8mb8ClNh3asSfhKDpgoWg {
-            get {
-                object obj = ResourceManager.GetObject("360_F_258285187_AKQGj597Igj8mb8ClNh3asSfhKDpgoWg", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap _360_F_270790287_uObJLQ4gkaPeNpgGEQOtBNl0TLO18pos {
-            get {
-                object obj = ResourceManager.GetObject("360_F_270790287_uObJLQ4gkaPeNpgGEQOtBNl0TLO18pos", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
         internal static System.Drawing.Bitmap _574_1024x512 {
             get {
                 object obj = ResourceManager.GetObject("574-1024x512", resourceCulture);
@@ -116,16 +96,6 @@ namespace Hospital_Management.Properties {
         internal static System.Drawing.Bitmap ChatGPT_Image_Sep_6__2026__01_03_00_AM {
             get {
                 object obj = ResourceManager.GetObject("ChatGPT Image Sep 6, 2026, 01_03_00 AM", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap ChatGPT_Image_Sep_7__2026__08_37_07_PM {
-            get {
-                object obj = ResourceManager.GetObject("ChatGPT Image Sep 7, 2026, 08_37_07 PM", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -237,26 +207,6 @@ namespace Hospital_Management.Properties {
             get {
                 object obj = ResourceManager.GetObject("pngtree-abstract-blur-hospital-clinic-counter-interior-defocused-medical-backgrou" +
                         "nd-image_15646915", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap researchers_use_ai_to_detect_antibiotic_resistance_in_bacteria_392265_640x360 {
-            get {
-                object obj = ResourceManager.GetObject("researchers-use-ai-to-detect-antibiotic-resistance-in-bacteria-392265-640x360", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap researchers_use_ai_to_detect_antibiotic_resistance_in_bacteria_392265_640x3601 {
-            get {
-                object obj = ResourceManager.GetObject("researchers-use-ai-to-detect-antibiotic-resistance-in-bacteria-392265-640x3601", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

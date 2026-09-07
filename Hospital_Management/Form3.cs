@@ -142,10 +142,5 @@ namespace Hospital_Management
         {
 
         }
-
-        private void dgvPatient_CellContentClick_1(object sender, DataGridViewCellEventArgs e)
-        {
-
-        }
     }
 }

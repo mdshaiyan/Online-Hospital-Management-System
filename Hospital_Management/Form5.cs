@@ -116,9 +116,6 @@ namespace Hospital_Management
             }
         }
 
-        private void tbxSName_TextChanged(object sender, EventArgs e)
-        {
-
-        }
+        
     }
 }

@@ -44,7 +44,7 @@
             label1.AutoSize = true;
             label1.BackColor = Color.Gold;
             label1.Font = new Font("Times New Roman", 24.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label1.Location = new Point(363, 60);
+            label1.Location = new Point(342, 59);
             label1.Name = "label1";
             label1.Size = new Size(112, 37);
             label1.TabIndex = 1;

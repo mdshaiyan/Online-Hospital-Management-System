@@ -121,15 +121,6 @@
   <data name="hospital logo" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\hospital logo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="researchers-use-ai-to-detect-antibiotic-resistance-in-bacteria-392265-640x360" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\researchers-use-ai-to-detect-antibiotic-resistance-in-bacteria-392265-640x360.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="ChatGPT Image Sep 6, 2026, 01_03_00 AM" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\ChatGPT Image Sep 6, 2026, 01_03_00 AM.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="360_F_270790287_uObJLQ4gkaPeNpgGEQOtBNl0TLO18pos" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\360_F_270790287_uObJLQ4gkaPeNpgGEQOtBNl0TLO18pos.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="cashhier" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\cashhier.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -138,9 +129,6 @@
   </data>
   <data name="pngtree-abstract-blur-hospital-clinic-counter-interior-defocused-medical-background-image_15646915" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\pngtree-abstract-blur-hospital-clinic-counter-interior-defocused-medical-background-image_15646915.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="574-1024x512" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\574-1024x512.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Gemini_Generated_Image_eqymmzeqymmzeqym-Photoroom" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Gemini_Generated_Image_eqymmzeqymmzeqym-Photoroom.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -154,8 +142,8 @@
   <data name="gettyimages-1606689641-2048x2048" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\gettyimages-1606689641-2048x2048.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="researchers-use-ai-to-detect-antibiotic-resistance-in-bacteria-392265-640x3601" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\researchers-use-ai-to-detect-antibiotic-resistance-in-bacteria-392265-640x3601.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="3241965" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\3241965.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Gemini_Generated_Image_eqymmzeqymmzeqym" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Gemini_Generated_Image_eqymmzeqymmzeqym.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -172,15 +160,10 @@
   <data name="white-modern-medical-wallpaper-geometric-hexagon-medical-icons-technology-background-vector" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\white-modern-medical-wallpaper-geometric-hexagon-medical-icons-technology-background-vector.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="3241965" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\3241965.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="ChatGPT Image Sep 6, 2026, 01_03_00 AM" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ChatGPT Image Sep 6, 2026, 01_03_00 AM.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-<<<<<<< HEAD
-  <data name="ChatGPT Image Sep 7, 2026, 08_37_07 PM" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\ChatGPT Image Sep 7, 2026, 08_37_07 PM.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-=======
-  <data name="360_F_258285187_AKQGj597Igj8mb8ClNh3asSfhKDpgoWg" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\360_F_258285187_AKQGj597Igj8mb8ClNh3asSfhKDpgoWg.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
->>>>>>> 7bb3b2c9b1f39088ba53c48e236034347d05ab20
+  <data name="574-1024x512" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\574-1024x512.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>
