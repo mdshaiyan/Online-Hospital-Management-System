@@ -43,25 +43,26 @@
             // label1
             // 
             label1.AutoSize = true;
-            label1.Font = new Font("Segoe UI", 12F);
+            label1.Font = new Font("Times New Roman", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label1.Location = new Point(264, 154);
             label1.Name = "label1";
-            label1.Size = new Size(55, 21);
+            label1.Size = new Size(54, 19);
             label1.TabIndex = 0;
             label1.Text = "Name:";
             // 
             // label2
             // 
             label2.AutoSize = true;
-            label2.Font = new Font("Segoe UI", 12F);
+            label2.Font = new Font("Times New Roman", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
             label2.Location = new Point(249, 198);
             label2.Name = "label2";
-            label2.Size = new Size(79, 21);
+            label2.Size = new Size(72, 19);
             label2.TabIndex = 0;
             label2.Text = "Password:";
             // 
             // tbxSName
             // 
+            tbxSName.BackColor = SystemColors.Info;
             tbxSName.Location = new Point(343, 152);
             tbxSName.Name = "tbxSName";
             tbxSName.Size = new Size(210, 23);
@@ -69,6 +70,7 @@
             // 
             // tbxSPass
             // 
+            tbxSPass.BackColor = SystemColors.Info;
             tbxSPass.Location = new Point(343, 198);
             tbxSPass.Name = "tbxSPass";
             tbxSPass.Size = new Size(210, 23);
@@ -77,22 +79,23 @@
             // label3
             // 
             label3.AutoSize = true;
-            label3.Font = new Font("Segoe UI", 12F);
+            label3.Font = new Font("Times New Roman", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
             label3.Location = new Point(275, 245);
             label3.Name = "label3";
-            label3.Size = new Size(44, 21);
+            label3.Size = new Size(40, 19);
             label3.TabIndex = 0;
             label3.Text = "Role:";
             // 
             // btnSignup
             // 
-            btnSignup.Font = new Font("Segoe UI", 12F);
+            btnSignup.BackColor = Color.Yellow;
+            btnSignup.Font = new Font("Times New Roman", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
             btnSignup.Location = new Point(393, 296);
             btnSignup.Name = "btnSignup";
             btnSignup.Size = new Size(80, 37);
             btnSignup.TabIndex = 2;
             btnSignup.Text = "Sign Up";
-            btnSignup.UseVisualStyleBackColor = true;
+            btnSignup.UseVisualStyleBackColor = false;
             btnSignup.Click += btnSignup_Click;
             // 
             // cbSignUp
