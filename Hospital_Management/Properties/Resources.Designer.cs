@@ -103,6 +103,26 @@ namespace Hospital_Management.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap debo {
+            get {
+                object obj = ResourceManager.GetObject("debo", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap debo__1_ {
+            get {
+                object obj = ResourceManager.GetObject("debo (1)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Gemini_Generated_Image_eqymmzeqymmzeqym {
             get {
                 object obj = ResourceManager.GetObject("Gemini_Generated_Image_eqymmzeqymmzeqym", resourceCulture);
@@ -207,6 +227,46 @@ namespace Hospital_Management.Properties {
             get {
                 object obj = ResourceManager.GetObject("pngtree-abstract-blur-hospital-clinic-counter-interior-defocused-medical-backgrou" +
                         "nd-image_15646915", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap reception__1_ {
+            get {
+                object obj = ResourceManager.GetObject("reception (1)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap resep {
+            get {
+                object obj = ResourceManager.GetObject("resep", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap resep__1_ {
+            get {
+                object obj = ResourceManager.GetObject("resep (1)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap sifat {
+            get {
+                object obj = ResourceManager.GetObject("sifat", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

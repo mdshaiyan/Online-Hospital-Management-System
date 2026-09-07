@@ -128,6 +128,7 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
+            BackgroundImage = Properties.Resources.sifat;
             ClientSize = new Size(800, 450);
             Controls.Add(cbSignUp);
             Controls.Add(btnSignup);
