@@ -22,7 +22,7 @@ namespace Hospital_Management
             tbxAge.Text = age;
         }
 
-        public void LoadCashierDetails(int id,string name,string specialization,string age)
+        public void LoadCashierDetails(int id, string name, string specialization, string age)
         {
             staffType = "Cashier";
 
@@ -164,6 +164,9 @@ namespace Hospital_Management
             }
         }
 
-        
+        private void lblCashier_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
