@@ -117,7 +117,7 @@
             btnCCreate.Location = new Point(425, 433);
             btnCCreate.Margin = new Padding(3, 4, 3, 4);
             btnCCreate.Name = "btnCCreate";
-            btnCCreate.Size = new Size(97, 31);
+            btnCCreate.Size = new Size(110, 31);
             btnCCreate.TabIndex = 3;
             btnCCreate.Text = "create";
             btnCCreate.UseVisualStyleBackColor = false;

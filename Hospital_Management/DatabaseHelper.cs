@@ -17,8 +17,6 @@ namespace Hospital_Management
         }
 
 
-      
-
         public static bool Login(string username, string password, string role)
         {
             string query = @"

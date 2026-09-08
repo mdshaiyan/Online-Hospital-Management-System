@@ -164,7 +164,7 @@
             lblCashier.AutoSize = true;
             lblCashier.BackColor = Color.Transparent;
             lblCashier.Font = new Font("Times New Roman", 24.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            lblCashier.Location = new Point(265, 126);
+            lblCashier.Location = new Point(271, 121);
             lblCashier.Name = "lblCashier";
             lblCashier.Size = new Size(373, 48);
             lblCashier.TabIndex = 4;

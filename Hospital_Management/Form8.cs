@@ -399,5 +399,10 @@ namespace Hospital_Management
 
             return true;
         }
+
+        private void btnPrescribe_Click_1(object sender, EventArgs e)
+        {
+
+        }
     }
 }
