@@ -242,7 +242,7 @@ namespace Hospital_Management
 
 
 
-        public static DataTable SearchPatient(string patientName)
+        public static DataTable SearchPatient(string patient)
         {
             string query = @"
                SELECT
@@ -253,7 +253,7 @@ namespace Hospital_Management
                     BloodGroup,
                     MedicalHistory
                 FROM Patients
-                WHERE PatientName LIKE @name";
+                WHERE PatientID LIKE @search or PatientName LIKE @search";
 
                 using (SqlConnection con = GetConnection())
             {
@@ -261,7 +261,7 @@ namespace Hospital_Management
 
                 using (SqlCommand cmd = new SqlCommand(query, con))
                 {
-                    cmd.Parameters.AddWithValue("@name", "%" + patientName + "%");
+                    cmd.Parameters.AddWithValue("@search", "%" + patient + "%");
 
                     using (SqlDataAdapter adapter = new SqlDataAdapter(cmd))
                     {
@@ -571,6 +571,21 @@ namespace Hospital_Management
                     return count > 0;
                 }
             }
+        }
+
+        public static DataTable GetPatientByID(int patientID)
+        {
+            string query = @"
+                    SELECT
+                        PatientID,
+                        PatientName,
+                        Age,
+                        Gender
+                    FROM Patients
+                    WHERE PatientID = @patientID";
+
+            return ExecuteQuery(query,new SqlParameter("@patientID", patientID)
+            );
         }
 
         public static bool BookAppointment(int patientID,int doctorID,DateTime appointmentDate,TimeSpan startTime,TimeSpan endTime)

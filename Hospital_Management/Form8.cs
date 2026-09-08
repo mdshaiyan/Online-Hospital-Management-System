@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data;
 using System.Drawing;
 using System.Windows.Forms;
 
@@ -10,7 +11,7 @@ namespace Hospital_Management
         private int patientID;
         private int rowCount = 0;
 
-        // Store the first row separately
+        
         private Panel firstRow;
 
         public PrescriptionForm(int patientID)
@@ -19,18 +20,15 @@ namespace Hospital_Management
 
             this.patientID = patientID;
 
-            // Create first row automatically
+            LoadPatientDetails();
+   
             AddFirstRow();
 
-            // Button events
+        
             btnAddP.Click += btnAddP_Click;
             btnPrescribe.Click += btnPrescribe_Click;
         }
 
-        // =====================================================
-        // FIRST ROW
-        // Disease + Medicine + Time + Days
-        // =====================================================
         private void AddFirstRow()
         {
             Panel row = new Panel();
@@ -43,9 +41,7 @@ namespace Hospital_Management
                 rowCount * 45
             );
 
-            // -------------------------
-            // Disease
-            // -------------------------
+        
             TextBox tbxDisease = new TextBox();
 
             tbxDisease.Width = 130;
@@ -53,9 +49,7 @@ namespace Hospital_Management
             tbxDisease.Location = new Point(5, 7);
             tbxDisease.PlaceholderText = "Disease";
 
-            // -------------------------
-            // Medicine
-            // -------------------------
+           
             TextBox tbxMedicine = new TextBox();
 
             tbxMedicine.Width = 150;
@@ -63,9 +57,7 @@ namespace Hospital_Management
             tbxMedicine.Location = new Point(145, 7);
             tbxMedicine.PlaceholderText = "Medicine Name";
 
-            // -------------------------
-            // Time
-            // -------------------------
+          
             TextBox tbxTime = new TextBox();
 
             tbxTime.Width = 100;
@@ -73,9 +65,7 @@ namespace Hospital_Management
             tbxTime.Location = new Point(305, 7);
             tbxTime.PlaceholderText = "Time";
 
-            // -------------------------
-            // Days
-            // -------------------------
+          
             TextBox tbxDays = new TextBox();
 
             tbxDays.Width = 80;
@@ -98,10 +88,7 @@ namespace Hospital_Management
             rowCount++;
         }
 
-        // =====================================================
-        // ADDITIONAL ROW
-        // Medicine + Time + Days ONLY
-        // =====================================================
+
         private void AddMedicineRow()
         {
             Panel row = new Panel();
@@ -114,9 +101,6 @@ namespace Hospital_Management
                 rowCount * 45
             );
 
-            // -------------------------
-            // Medicine
-            // -------------------------
             TextBox tbxMedicine = new TextBox();
 
             tbxMedicine.Width = 150;
@@ -124,9 +108,8 @@ namespace Hospital_Management
             tbxMedicine.Location = new Point(145, 7);
             tbxMedicine.PlaceholderText = "Medicine Name";
 
-            // -------------------------
-            // Time
-            // -------------------------
+     
+
             TextBox tbxTime = new TextBox();
 
             tbxTime.Width = 100;
@@ -134,9 +117,6 @@ namespace Hospital_Management
             tbxTime.Location = new Point(305, 7);
             tbxTime.PlaceholderText = "Time";
 
-            // -------------------------
-            // Days
-            // -------------------------
             TextBox tbxDays = new TextBox();
 
             tbxDays.Width = 80;
@@ -155,17 +135,13 @@ namespace Hospital_Management
             rowCount++;
         }
 
-        // =====================================================
-        // + BUTTON
-        // =====================================================
+    
         private void btnAddP_Click(object sender, EventArgs e)
         {
             AddMedicineRow();
         }
 
-        // =====================================================
-        // PRESCRIBE BUTTON
-        // =====================================================
+
         private void btnPrescribe_Click(object sender, EventArgs e)
         {
             if (patientID <= 0)
@@ -190,28 +166,19 @@ namespace Hospital_Management
                 return;
             }
 
-            // =================================================
-            // GET FIRST ROW DATA
-            // =================================================
+        
 
-            TextBox firstDisease =
-                firstRow.Controls[0] as TextBox;
+            TextBox firstDisease =firstRow.Controls[0] as TextBox;
 
-            TextBox firstMedicine =
-                firstRow.Controls[1] as TextBox;
+            TextBox firstMedicine =firstRow.Controls[1] as TextBox;
 
-            TextBox firstTime =
-                firstRow.Controls[2] as TextBox;
+            TextBox firstTime =firstRow.Controls[2] as TextBox;
 
-            TextBox firstDays =
-                firstRow.Controls[3] as TextBox;
+            TextBox firstDays =firstRow.Controls[3] as TextBox;
 
-            string disease =
-                firstDisease.Text.Trim();
+            string disease = firstDisease.Text.Trim();
 
-            // =================================================
-            // VALIDATE DISEASE
-            // =================================================
+           
 
             if (string.IsNullOrWhiteSpace(disease))
             {
@@ -224,12 +191,9 @@ namespace Hospital_Management
                 return;
             }
 
-            // =================================================
-            // MEDICINE LIST
-            // =================================================
+         
 
-            List<string> medicines =
-                new List<string>();
+            List<string> medicines =new List<string>();
 
             // First medicine
             if (!AddMedicineToList(
@@ -241,32 +205,23 @@ namespace Hospital_Management
                 return;
             }
 
-            // =================================================
-            // ADDITIONAL MEDICINE ROWS
-            // =================================================
 
             foreach (Control control in itemPanel.Controls)
             {
                 // Only process dynamically created Panel rows
                 if (control is Panel row && row != firstRow)
                 {
-                    TextBox medicine =
-                        row.Controls[0] as TextBox;
+                    TextBox medicine =row.Controls[0] as TextBox;
 
-                    TextBox time =
-                        row.Controls[1] as TextBox;
+                    TextBox time =row.Controls[1] as TextBox;
 
-                    TextBox days =
-                        row.Controls[2] as TextBox;
+                    TextBox days =row.Controls[2] as TextBox;
 
-                    string medicineName =
-                        medicine.Text.Trim();
+                    string medicineName =medicine.Text.Trim();
 
-                    string medicineTime =
-                        time.Text.Trim();
+                    string medicineTime =time.Text.Trim();
 
-                    string medicineDays =
-                        days.Text.Trim();
+                    string medicineDays =days.Text.Trim();
 
                     // Ignore completely empty rows
                     if (string.IsNullOrWhiteSpace(medicineName) &&
@@ -287,9 +242,7 @@ namespace Hospital_Management
                 }
             }
 
-            // =================================================
-            // CREATE HISTORY TEXT
-            // =================================================
+          
 
             string prescriptionText =
                 "Prescription - " +
@@ -301,21 +254,13 @@ namespace Hospital_Management
 
             foreach (string medicine in medicines)
             {
-                prescriptionText +=
-                    medicine +
-                    Environment.NewLine;
+                prescriptionText +=medicine + Environment.NewLine;
             }
 
-            // =================================================
-            // SAVE TO DATABASE
-            // =================================================
 
             try
             {
-                bool success =
-                    DatabaseHelper.AddPrescriptionToHistory(
-                        patientID,
-                        prescriptionText);
+                bool success =DatabaseHelper.AddPrescriptionToHistory(patientID,prescriptionText);
 
                 if (success)
                 {
@@ -347,9 +292,7 @@ namespace Hospital_Management
             }
         }
 
-        // =====================================================
-        // VALIDATE MEDICINE
-        // =====================================================
+
         private bool AddMedicineToList(
             List<string> medicines,
             string medicine,
@@ -398,6 +341,38 @@ namespace Hospital_Management
                 " | Days: " + numberOfDays);
 
             return true;
+        }
+
+        private void LoadPatientDetails()
+        {
+            try
+            {
+                DataTable table = DatabaseHelper.GetPatientByID(patientID);
+
+                if (table.Rows.Count == 0)
+                {
+                    lblDetails.Text = "Patient information not found.";
+                    return;
+                }
+
+                DataRow row = table.Rows[0];
+
+                lblDetails.Text =
+     "Patient ID: " + row["PatientID"].ToString() + "   " +
+     "Patient Name: " + row["PatientName"].ToString() + "   " +
+     "Age: " + row["Age"].ToString() + "   " +
+     "Gender: " + row["Gender"].ToString() + "   ";
+            }
+            catch (Exception ex)
+            {
+                lblDetails.Text = "Unable to load patient information.";
+
+                MessageBox.Show(
+                    "Error loading patient information:\n\n" + ex.Message,
+                    "Database Error",
+                    MessageBoxButtons.OK,
+                    MessageBoxIcon.Error);
+            }
         }
 
         private void btnPrescribe_Click_1(object sender, EventArgs e)

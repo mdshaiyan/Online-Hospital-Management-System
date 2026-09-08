@@ -48,8 +48,7 @@ namespace Hospital_Management
 
             try
             {
-                DataTable patients =
-                    DatabaseHelper.SearchPatient(patientName);
+                DataTable patients =DatabaseHelper.SearchPatient(patientName);
 
                 dgvPatient.DataSource = patients;
 
@@ -69,18 +68,14 @@ namespace Hospital_Management
         }
 
 
-        private void dgvPatient_CellContentClick(
-    object sender,
-    DataGridViewCellEventArgs e)
+        private void dgvPatient_CellContentClick(object sender,DataGridViewCellEventArgs e)
         {
             if (e.RowIndex < 0)
                 return;
 
             DataGridViewRow row = dgvPatient.Rows[e.RowIndex];
 
-            // =========================
-            // VIEW HISTORY
-            // =========================
+            
             if (dgvPatient.Columns[e.ColumnIndex].Name == "ViewHistory")
             {
                 int patientID =
@@ -119,9 +114,7 @@ namespace Hospital_Management
                 }
             }
 
-            // =========================
-            // PRESCRIPTION
-            // =========================
+
             if (dgvPatient.Columns[e.ColumnIndex].Name == "Prescription")
             {
                 int patientID =
