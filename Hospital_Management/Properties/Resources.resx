@@ -142,6 +142,9 @@
   <data name="healthcare-background-8u6l9oyzn67dtdas" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\healthcare-background-8u6l9oyzn67dtdas.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="dcotorupdate" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\dcotorupdate.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="recep (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\recep (1).jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -166,8 +169,8 @@
   <data name="pol" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\pol.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="cas" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\cas.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="boycashier" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\boycashier.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="merge1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\merge1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -205,6 +208,9 @@
   <data name="gettyimages-1606689641-2048x2048" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\gettyimages-1606689641-2048x2048.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="cas" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cas.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="new" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\new.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -229,14 +235,14 @@
   <data name="sifat1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\sifat1.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="boycashier" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\boycashier.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="casier" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\casier.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="pngtree-abstract-blur-hospital-clinic-counter-interior-defocused-medical-background-image_15646915" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\pngtree-abstract-blur-hospital-clinic-counter-interior-defocused-medical-background-image_15646915.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="updateboy" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\updateboy.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="mupdated" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\mupdated.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -256,7 +262,7 @@
   <data name="WhatsApp Image 2026-09-08 at 12.28.07 AM" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\WhatsApp Image 2026-09-08 at 12.28.07 AM.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="updateboy" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\updateboy.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="dcotorupdate1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\dcotorupdate1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>
