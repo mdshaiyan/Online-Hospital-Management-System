@@ -28,67 +28,57 @@
         /// </summary>
         private void InitializeComponent()
         {
-            label1 = new Label();
             itemPanel = new Panel();
             btnAddP = new Button();
             btnPrescribe = new Button();
             itemPanel.SuspendLayout();
             SuspendLayout();
             // 
-            // label1
-            // 
-            label1.AutoSize = true;
-            label1.Font = new Font("Segoe UI", 20F);
-            label1.Location = new Point(168, 72);
-            label1.Name = "label1";
-            label1.Size = new Size(124, 37);
-            label1.TabIndex = 0;
-            label1.Text = "Prescribe";
-            // 
             // itemPanel
             // 
             itemPanel.Controls.Add(btnAddP);
-            itemPanel.Location = new Point(125, 130);
+            itemPanel.Location = new Point(317, 165);
+            itemPanel.Margin = new Padding(3, 4, 3, 4);
             itemPanel.Name = "itemPanel";
-            itemPanel.Size = new Size(571, 249);
+            itemPanel.Size = new Size(585, 358);
             itemPanel.TabIndex = 1;
             // 
             // btnAddP
             // 
-            btnAddP.Location = new Point(528, 3);
+            btnAddP.Location = new Point(510, 4);
+            btnAddP.Margin = new Padding(3, 4, 3, 4);
             btnAddP.Name = "btnAddP";
-            btnAddP.Size = new Size(40, 23);
+            btnAddP.Size = new Size(62, 32);
             btnAddP.TabIndex = 0;
             btnAddP.Text = "+";
             btnAddP.UseVisualStyleBackColor = true;
             // 
             // btnPrescribe
             // 
-            btnPrescribe.Location = new Point(371, 398);
+            btnPrescribe.Location = new Point(544, 531);
+            btnPrescribe.Margin = new Padding(3, 4, 3, 4);
             btnPrescribe.Name = "btnPrescribe";
-            btnPrescribe.Size = new Size(75, 23);
+            btnPrescribe.Size = new Size(105, 43);
             btnPrescribe.TabIndex = 0;
             btnPrescribe.Text = "Prescribe";
             btnPrescribe.UseVisualStyleBackColor = true;
             // 
             // PrescriptionForm
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
+            BackgroundImage = Properties.Resources.doctorprescribers;
+            ClientSize = new Size(914, 600);
             Controls.Add(btnPrescribe);
             Controls.Add(itemPanel);
-            Controls.Add(label1);
+            Margin = new Padding(3, 4, 3, 4);
             Name = "PrescriptionForm";
             Text = "Form8";
             itemPanel.ResumeLayout(false);
             ResumeLayout(false);
-            PerformLayout();
         }
 
         #endregion
-
-        private Label label1;
         private Panel itemPanel;
         private Button btnAddP;
         private Button btnPrescribe;

@@ -223,6 +223,16 @@ namespace Hospital_Management.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap doctorprescribers {
+            get {
+                object obj = ResourceManager.GetObject("doctorprescribers", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap doctorthreers {
             get {
                 object obj = ResourceManager.GetObject("doctorthreers", resourceCulture);

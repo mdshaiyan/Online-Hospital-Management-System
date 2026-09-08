@@ -37,6 +37,7 @@
             btnCCreate = new Button();
             menuStrip1 = new MenuStrip();
             backToolStripMenuItem = new ToolStripTextBox();
+            lblCashier = new Label();
             menuStrip1.SuspendLayout();
             SuspendLayout();
             // 
@@ -44,7 +45,7 @@
             // 
             tbxCId.BackColor = Color.Navy;
             tbxCId.ForeColor = SystemColors.Window;
-            tbxCId.Location = new Point(393, 211);
+            tbxCId.Location = new Point(425, 213);
             tbxCId.Margin = new Padding(3, 4, 3, 4);
             tbxCId.Name = "tbxCId";
             tbxCId.Size = new Size(352, 27);
@@ -67,7 +68,7 @@
             // 
             tbxCPass.BackColor = Color.Navy;
             tbxCPass.ForeColor = SystemColors.Window;
-            tbxCPass.Location = new Point(393, 271);
+            tbxCPass.Location = new Point(425, 276);
             tbxCPass.Margin = new Padding(3, 4, 3, 4);
             tbxCPass.Name = "tbxCPass";
             tbxCPass.Size = new Size(352, 27);
@@ -79,7 +80,7 @@
             label2.BackColor = Color.Navy;
             label2.BorderStyle = BorderStyle.Fixed3D;
             label2.ForeColor = SystemColors.Control;
-            label2.Location = new Point(292, 275);
+            label2.Location = new Point(317, 276);
             label2.Name = "label2";
             label2.Size = new Size(78, 22);
             label2.TabIndex = 1;
@@ -103,7 +104,7 @@
             cbCRole.ForeColor = SystemColors.Window;
             cbCRole.FormattingEnabled = true;
             cbCRole.Items.AddRange(new object[] { "Doctor", "Cashier" });
-            cbCRole.Location = new Point(407, 337);
+            cbCRole.Location = new Point(449, 341);
             cbCRole.Margin = new Padding(3, 4, 3, 4);
             cbCRole.Name = "cbCRole";
             cbCRole.Size = new Size(155, 28);
@@ -116,7 +117,7 @@
             btnCCreate.Location = new Point(425, 433);
             btnCCreate.Margin = new Padding(3, 4, 3, 4);
             btnCCreate.Name = "btnCCreate";
-            btnCCreate.Size = new Size(97, 31);
+            btnCCreate.Size = new Size(110, 31);
             btnCCreate.TabIndex = 3;
             btnCCreate.Text = "create";
             btnCCreate.UseVisualStyleBackColor = false;
@@ -140,12 +141,25 @@
             backToolStripMenuItem.Text = "Back";
             backToolStripMenuItem.Click += backToolStripMenuItem_Click;
             // 
+            // lblCashier
+            // 
+            lblCashier.AutoSize = true;
+            lblCashier.BackColor = Color.Transparent;
+            lblCashier.Font = new Font("Times New Roman", 24.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            lblCashier.ForeColor = SystemColors.ButtonFace;
+            lblCashier.Location = new Point(292, 71);
+            lblCashier.Name = "lblCashier";
+            lblCashier.Size = new Size(426, 48);
+            lblCashier.TabIndex = 5;
+            lblCashier.Text = "Create Doctor/Cashier";
+            // 
             // createForm
             // 
             AutoScaleDimensions = new SizeF(9F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             BackgroundImage = Properties.Resources.admindashboardrs1;
             ClientSize = new Size(1028, 600);
+            Controls.Add(lblCashier);
             Controls.Add(btnCCreate);
             Controls.Add(cbCRole);
             Controls.Add(label3);
@@ -176,5 +190,6 @@
         private Button btnCCreate;
         private MenuStrip menuStrip1;
         private ToolStripTextBox backToolStripMenuItem;
+        private Label lblCashier;
     }
 }
