@@ -1,9 +1,13 @@
-Author: Md.Shaiyan Bean Omar
-        Redwan Mohd Mukhles
-        S.M Taj Ahmed
+# Online-Hospital-Management-System
 
-Project Overview: This is an ONLINE HOSPITAL MANAGEMENT SYSTEM application. We can sign up/ login by this application.Here anyone can sign up by username and password.And then login by same username and password.
-                  If anyone do any mistake when try to login or signup then it shows a error.After succesful login anyone can see this interface on our application.
+
+ Author: Md.Shaiyan Bean Omar
+          Redwan Mohd Mukhles
+          S.M Taj Ahmed
+
+# Project Overview: This is an ONLINE HOSPITAL MANAGEMENT SYSTEM application. We can sign up/ login by this application.
+Here anyone can sign up by Id and password.And then login by same Id and password.
+If anyone do any mistake when try to login or signup then it shows a error.After succesful login anyone can see this interface on our application.
                 
 <img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/d3e56cb0-d8a5-4b70-9ae5-219e5c218225" />
 
@@ -36,7 +40,7 @@ After update the prescription it shows like this
 
 <img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/78a1b023-cb01-4445-b466-9b4702132a22" />
 
-After updated history when i click on patient history it gives updated history like this 
+After updated history when anyone click on patient history it gives updated history like this 
 
 <img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/329dd3a3-b793-434a-8485-c77f2a6ea59c" />
 
@@ -45,6 +49,38 @@ Now if anyone Login via Cashier it shows a interface like this.Here he/she can c
 <img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/0ff47364-1d49-4e01-8499-47105bb9735d" />
 
 <img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/0c7696a5-7b51-4251-9d38-9732eaf049f7" />
+
+Now finally if anyone can login via patient then can see the interface like this where they can book an appointment from there.Here anyone can select the any doctor which he/she want to appoint by clicking on Doctor's and they need to select the time.Here if anyone select the time which is previously booked by another patient the box shows red colour and it can't be select.Then he/she need to choose another time for booking.And then write all the information of the patient and then click on book option.Finally click on updated option and the whole things properly updated on the server.
+
+
+<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/46aa0bde-656a-4f47-81a0-dee8bd228019" />
+
+<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/57cc655f-06bd-4f84-80b4-7e970157fb27" />
+
+<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/2fcb7c8c-2026-426d-b1ee-c8ff7f67f4cc" />
+
+This is our overall look for this application.
+
+# The project uses the following technologies:
+
+Programming Language: C# 14.0 targeting .NET 10.0
+
+Application Framework: Windows Forms (net10.0-windows)
+
+Database: Microsoft SQL Server (LocalDB or LocalHost)
+
+Data Provider: Microsoft.Data.SqlClient 7.0.2
+
+Development Environment: Visual Studio 2022 / 2026 Preview
+
+# CONCLUSION:-
+
+It is Online HOSPITAL MANAGEMENT SYSTEM.The project was built using C# and Windows Forms on the .NET 10 runtime, with Entity Framework Core handling all database interactions and Microsoft SQL Server storing the data.
+The four role model here we use : Doctor,Patient,Admin,Cashier.The Online Hospital Management System successfully streamlines healthcare operations by integrating distinct portals for Admins, Doctors, Patients, and Cashiers into a single unified platform. By automating administrative workflows, patient records, billing processes, and appointment schedules, the system minimizes human error, reduces wait times, and improves overall operational efficiency for modern healthcare facilities.
+
+
+
+
 
 
 
