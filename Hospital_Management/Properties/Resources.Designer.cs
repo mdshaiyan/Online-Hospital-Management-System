@@ -93,6 +93,26 @@ namespace Hospital_Management.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap admindashboardrs {
+            get {
+                object obj = ResourceManager.GetObject("admindashboardrs", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap admindashboardrs1 {
+            get {
+                object obj = ResourceManager.GetObject("admindashboardrs1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap boycashier {
             get {
                 object obj = ResourceManager.GetObject("boycashier", resourceCulture);
@@ -153,6 +173,16 @@ namespace Hospital_Management.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap dashboardadmin {
+            get {
+                object obj = ResourceManager.GetObject("dashboardadmin", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap dcotorupdate {
             get {
                 object obj = ResourceManager.GetObject("dcotorupdate", resourceCulture);
@@ -186,6 +216,16 @@ namespace Hospital_Management.Properties {
         internal static System.Drawing.Bitmap debo__1_ {
             get {
                 object obj = ResourceManager.GetObject("debo (1)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap doctorthreers {
+            get {
+                object obj = ResourceManager.GetObject("doctorthreers", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
