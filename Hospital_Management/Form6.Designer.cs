@@ -164,11 +164,11 @@
             lblCashier.AutoSize = true;
             lblCashier.BackColor = Color.Transparent;
             lblCashier.Font = new Font("Times New Roman", 24.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            lblCashier.Location = new Point(221, 118);
+            lblCashier.Location = new Point(265, 126);
             lblCashier.Name = "lblCashier";
-            lblCashier.Size = new Size(505, 48);
+            lblCashier.Size = new Size(373, 48);
             lblCashier.TabIndex = 4;
-            lblCashier.Text = "Update Doctor information";
+            lblCashier.Text = "Update information";
             lblCashier.Click += lblCashier_Click;
             // 
             // profileDetailsForm
