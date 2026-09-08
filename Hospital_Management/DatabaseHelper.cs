@@ -6,7 +6,7 @@ namespace Hospital_Management
     public static class DatabaseHelper
     {
         private static readonly string connectionString =
-    @"Server=localhost;Database=HospitalDB;Trusted_Connection=True;TrustServerCertificate=True;Connect Timeout=5;";
+    @"Server=(localdb)\MSSQLLocalDB;Database=HospitalDB;Trusted_Connection=True;TrustServerCertificate=True;Connect Timeout=5;";
 
 
 
