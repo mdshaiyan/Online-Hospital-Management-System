@@ -437,5 +437,10 @@ namespace Hospital_Management
             mForm.Show();
             this.Hide();
         }
+
+        private void Patient_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

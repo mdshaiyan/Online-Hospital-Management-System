@@ -118,29 +118,26 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="dcotorupdate1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\dcotorupdate1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="pngtree-abstract-blur-hospital-clinic-counter-interior-defocused-medical-background-image_15646915" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\pngtree-abstract-blur-hospital-clinic-counter-interior-defocused-medical-background-image_15646915.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="health-care-icon-pattern-medical-innovation-concept-background-design-vector1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\health-care-icon-pattern-medical-innovation-concept-background-design-vector1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="cas1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\cas1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="updated" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\updated.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="3241965" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\3241965.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="resep (1)1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\resep (1)1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="nimi1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\nimi1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="sifat" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\sifat.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="admindashboardrs" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\admindashboardrs.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="resep1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\resep1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="sifat1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\sifat1.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="hospital logo" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\hospital logo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -157,11 +154,11 @@
   <data name="recep (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\recep (1).jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="sifat" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\sifat.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="resep (1)1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\resep (1)1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="dashboardadmin" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\dashboardadmin.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Gemini_Generated_Image_eqymmzeqymmzeqym" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Gemini_Generated_Image_eqymmzeqymmzeqym.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="574-1024x512" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\574-1024x512.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -171,9 +168,6 @@
   </data>
   <data name="reception (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\reception (1).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="sier" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\sier.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="resep" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\resep.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -186,9 +180,6 @@
   </data>
   <data name="merge1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\merge1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="recep (1)1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\recep (1)1.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Gemini_Generated_Image_qpr14mqpr14mqpr1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Gemini_Generated_Image_qpr14mqpr14mqpr1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -208,8 +199,8 @@
   <data name="debo (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\debo (1).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="debo" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\debo.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="resep1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\resep1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="nimi" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\nimi.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -226,14 +217,26 @@
   <data name="gettyimages-1606689641-2048x2048" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\gettyimages-1606689641-2048x2048.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="cas" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cas.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="new" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\new.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="resep (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\resep (1).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="jani1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\jani1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="recep (1)1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\recep (1)1.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="Gemini_Generated_Image_eqymmzeqymmzeqym-Photoroom" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Gemini_Generated_Image_eqymmzeqymmzeqym-Photoroom.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="nimi1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\nimi1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="modern.jepg" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\modern.jepg.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -244,40 +247,40 @@
   <data name="mupdated" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\mupdated.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="doctorprescribers" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\doctorprescribers.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="casier" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\casier.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="jani1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\jani1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="pngtree-abstract-blur-hospital-clinic-counter-interior-defocused-medical-background-image_15646915" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pngtree-abstract-blur-hospital-clinic-counter-interior-defocused-medical-background-image_15646915.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="updateboy" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\updateboy.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="cas" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\cas.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="dashboardadmin" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\dashboardadmin.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="admindashboardrs1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\admindashboardrs1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="health-care-icon-pattern-medical-innovation-concept-background-design-vector1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\health-care-icon-pattern-medical-innovation-concept-background-design-vector1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="debo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\debo.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="sifat1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\sifat1.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="updated" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\updated.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="sier" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\sier.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="jani" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\jani.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Gemini_Generated_Image_eqymmzeqymmzeqym" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Gemini_Generated_Image_eqymmzeqymmzeqym.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="dcotorupdate1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\dcotorupdate1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="WhatsApp Image 2026-09-08 at 12.28.07 AM" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\WhatsApp Image 2026-09-08 at 12.28.07 AM.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="doctorprescribers" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\doctorprescribers.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="updated1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\updated.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

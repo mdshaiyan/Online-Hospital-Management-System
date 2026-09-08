@@ -584,6 +584,16 @@ namespace Hospital_Management.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap updated1 {
+            get {
+                object obj = ResourceManager.GetObject("updated1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap WhatsApp_Image_2026_09_08_at_12_28_07_AM {
             get {
                 object obj = ResourceManager.GetObject("WhatsApp Image 2026-09-08 at 12.28.07 AM", resourceCulture);
