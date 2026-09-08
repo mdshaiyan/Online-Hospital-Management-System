@@ -42,74 +42,79 @@
             // 
             // tbxPName
             // 
-            tbxPName.Location = new Point(277, 139);
+            tbxPName.Location = new Point(317, 185);
+            tbxPName.Margin = new Padding(3, 4, 3, 4);
             tbxPName.Name = "tbxPName";
-            tbxPName.Size = new Size(237, 23);
+            tbxPName.Size = new Size(270, 27);
             tbxPName.TabIndex = 0;
             // 
             // label1
             // 
             label1.AutoSize = true;
-            label1.Location = new Point(215, 142);
+            label1.Location = new Point(246, 189);
             label1.Name = "label1";
-            label1.Size = new Size(42, 15);
+            label1.Size = new Size(52, 20);
             label1.TabIndex = 1;
             label1.Text = "Name:";
             // 
             // tbxPId
             // 
-            tbxPId.Location = new Point(277, 185);
+            tbxPId.Location = new Point(317, 247);
+            tbxPId.Margin = new Padding(3, 4, 3, 4);
             tbxPId.Name = "tbxPId";
             tbxPId.ReadOnly = true;
-            tbxPId.Size = new Size(237, 23);
+            tbxPId.Size = new Size(270, 27);
             tbxPId.TabIndex = 0;
             // 
             // label2
             // 
             label2.AutoSize = true;
-            label2.Location = new Point(215, 188);
+            label2.Location = new Point(246, 251);
             label2.Name = "label2";
-            label2.Size = new Size(21, 15);
+            label2.Size = new Size(27, 20);
             label2.TabIndex = 1;
             label2.Text = "ID:";
             // 
             // tbxPSpeciality
             // 
-            tbxPSpeciality.Location = new Point(277, 230);
+            tbxPSpeciality.Location = new Point(317, 307);
+            tbxPSpeciality.Margin = new Padding(3, 4, 3, 4);
             tbxPSpeciality.Name = "tbxPSpeciality";
-            tbxPSpeciality.Size = new Size(237, 23);
+            tbxPSpeciality.Size = new Size(270, 27);
             tbxPSpeciality.TabIndex = 0;
             // 
             // label3
             // 
             label3.AutoSize = true;
-            label3.Location = new Point(197, 233);
+            label3.Location = new Point(225, 311);
             label3.Name = "label3";
-            label3.Size = new Size(60, 15);
+            label3.Size = new Size(76, 20);
             label3.TabIndex = 1;
             label3.Text = "Speciality:";
             // 
             // tbxAge
             // 
-            tbxAge.Location = new Point(277, 281);
+            tbxAge.Location = new Point(317, 375);
+            tbxAge.Margin = new Padding(3, 4, 3, 4);
             tbxAge.Name = "tbxAge";
-            tbxAge.Size = new Size(237, 23);
+            tbxAge.Size = new Size(270, 27);
             tbxAge.TabIndex = 0;
             // 
             // lblAge
             // 
             lblAge.AutoSize = true;
-            lblAge.Location = new Point(215, 284);
+            lblAge.Location = new Point(246, 379);
             lblAge.Name = "lblAge";
-            lblAge.Size = new Size(31, 15);
+            lblAge.Size = new Size(39, 20);
             lblAge.TabIndex = 1;
             lblAge.Text = "Age:";
             // 
             // btnUpdate
             // 
-            btnUpdate.Location = new Point(277, 352);
+            btnUpdate.Location = new Point(317, 469);
+            btnUpdate.Margin = new Padding(3, 4, 3, 4);
             btnUpdate.Name = "btnUpdate";
-            btnUpdate.Size = new Size(75, 23);
+            btnUpdate.Size = new Size(86, 31);
             btnUpdate.TabIndex = 2;
             btnUpdate.Text = "Update";
             btnUpdate.UseVisualStyleBackColor = true;
@@ -117,9 +122,10 @@
             // 
             // btnDelete
             // 
-            btnDelete.Location = new Point(439, 352);
+            btnDelete.Location = new Point(502, 469);
+            btnDelete.Margin = new Padding(3, 4, 3, 4);
             btnDelete.Name = "btnDelete";
-            btnDelete.Size = new Size(75, 23);
+            btnDelete.Size = new Size(86, 31);
             btnDelete.TabIndex = 2;
             btnDelete.Text = "Delete";
             btnDelete.UseVisualStyleBackColor = true;
@@ -127,9 +133,10 @@
             // 
             // profileDetailsForm
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
+            BackgroundImage = Properties.Resources.dcotorupdate1;
+            ClientSize = new Size(801, 513);
             Controls.Add(btnDelete);
             Controls.Add(btnUpdate);
             Controls.Add(lblAge);
@@ -140,6 +147,7 @@
             Controls.Add(tbxPSpeciality);
             Controls.Add(tbxPId);
             Controls.Add(tbxPName);
+            Margin = new Padding(3, 4, 3, 4);
             Name = "profileDetailsForm";
             Text = "Form6";
             ResumeLayout(false);
