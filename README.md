@@ -77,6 +77,11 @@ Development Environment: Visual Studio 2022 / 2026 Preview
 
 It is Online HOSPITAL MANAGEMENT SYSTEM.The project was built using C# and Windows Forms on the .NET 10 runtime, with Entity Framework Core handling all database interactions and Microsoft SQL Server storing the data.
 The four role model here we use : Doctor,Patient,Admin,Cashier.The Online Hospital Management System successfully streamlines healthcare operations by integrating distinct portals for Admins, Doctors, Patients, and Cashiers into a single unified platform. By automating administrative workflows, patient records, billing processes, and appointment schedules, the system minimizes human error, reduces wait times, and improves overall operational efficiency for modern healthcare facilities.
+Designed with clear role-based access control (RBAC), this system ensures secure and efficient collaboration among administrative staff, medical personnel, billing specialists, and patients. The separation of duties across the four core roles—Admin, Doctor, Patient, and Cashier—maintains data integrity while creating a seamless experience for hospital management and care delivery.
+
+# Future Outlook :-
+
+This platform establishes a solid foundation for digitized hospital workflows through its role-based architecture for Admins, Doctors, Patients, and Cashiers. Future iterations can easily expand upon this structure to incorporate advanced features such as telemedicine, online payment gateway integrations, and AI-driven diagnostic assistance.
 
 
 
