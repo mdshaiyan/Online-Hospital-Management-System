@@ -27,3 +27,28 @@ Also if we want to check we can click on Cashier and then we can see the all inf
  Now when a doctor login in his interface he/she can see the patient info by searching his/her name and id.If it matches then the all information of the patient showing in the table.
 
 <img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/db17e8de-e50b-44c9-9b7d-f00e0979e142" />
+
+Now doctor prescribe the medicine of his patient.Then if click on prescribe then it shows this interface along with patient name,id,age,gender.And then they update the prescription.
+
+<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/def7f946-ec4b-48c0-a31b-1e74df789a1b" />
+
+After update the prescription it shows like this
+
+<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/78a1b023-cb01-4445-b466-9b4702132a22" />
+
+After updated history when i click on patient history it gives updated history like this 
+
+<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/329dd3a3-b793-434a-8485-c77f2a6ea59c" />
+
+Now if anyone Login via Cashier it shows a interface like this.Here he/she can calculate the price item 
+
+<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/0ff47364-1d49-4e01-8499-47105bb9735d" />
+
+<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/0c7696a5-7b51-4251-9d38-9732eaf049f7" />
+
+
+
+
+
+
+
