@@ -34,7 +34,7 @@ namespace Hospital_Management
                     Label patientLabel = new Label();
 
                     patientLabel.Text =
-                        "Patient: " + patientName +
+                        "Patient:         " + patientName +
                         "     Blood Group: " + bloodGroup;
 
                     patientLabel.AutoSize = false;

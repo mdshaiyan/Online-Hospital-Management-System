@@ -110,6 +110,32 @@ namespace Hospital_Management
                 return;
             }
 
+            // --- Name validation: letters and spaces only ---
+            string name = tbxPName.Text.Trim();
+
+            if (string.IsNullOrWhiteSpace(name))
+            {
+                MessageBox.Show(
+                    "Please enter your name.",
+                    "Missing Name",
+                    MessageBoxButtons.OK,
+                    MessageBoxIcon.Warning);
+
+                return;
+            }
+
+            if (!IsValidName(name))
+            {
+                MessageBox.Show(
+                    "Name can only contain letters and spaces (no numbers or symbols).",
+                    "Invalid Name",
+                    MessageBoxButtons.OK,
+                    MessageBoxIcon.Warning);
+
+                return;
+            }
+
+            // --- Age validation ---
             if (!int.TryParse(tbxPAge.Text.Trim(), out int age))
             {
                 MessageBox.Show(
@@ -121,11 +147,43 @@ namespace Hospital_Management
                 return;
             }
 
-            if (string.IsNullOrWhiteSpace(tbxPName.Text))
+            // --- Gender validation: must be "Male" or "Female" (textbox, case-insensitive) ---
+            string gender = tbxGender.Text.Trim();
+
+            if (string.IsNullOrWhiteSpace(gender))
             {
                 MessageBox.Show(
-                    "Please enter your name.",
-                    "Missing Name",
+                    "Please enter a gender.",
+                    "Missing Gender",
+                    MessageBoxButtons.OK,
+                    MessageBoxIcon.Warning);
+
+                return;
+            }
+
+            if (!IsValidGender(gender))
+            {
+                MessageBox.Show(
+                    "Gender must be either 'Male' or 'Female'.",
+                    "Invalid Gender",
+                    MessageBoxButtons.OK,
+                    MessageBoxIcon.Warning);
+
+                return;
+            }
+
+            // Normalize casing so "male" / "MALE" / "Male" are all stored the same way
+            gender = char.ToUpper(gender[0]) + gender.Substring(1).ToLower();
+            tbxGender.Text = gender;
+
+            // --- Medical history validation: cannot be purely a number (letters/words allowed alongside numbers) ---
+            string medHistory = tbxMedHis.Text.Trim();
+
+            if (!string.IsNullOrWhiteSpace(medHistory) && !IsValidMedicalHistory(medHistory))
+            {
+                MessageBox.Show(
+                    "Medical history cannot be just a number — please enter a description (e.g. \"Diabetes since 2000\").",
+                    "Invalid Medical History",
                     MessageBoxButtons.OK,
                     MessageBoxIcon.Warning);
 
@@ -137,11 +195,11 @@ namespace Hospital_Management
                 bool success =
                     DatabaseHelper.UpdatePatient(
                         patientId,
-                        tbxPName.Text.Trim(),
+                        name,
                         age,
-                        tbxGender.Text.Trim(),
+                        gender,
                         tbxBloodGrp.Text.Trim(),
-                        tbxMedHis.Text.Trim());
+                        medHistory);
 
                 if (success)
                 {
@@ -169,6 +227,28 @@ namespace Hospital_Management
                     MessageBoxButtons.OK,
                     MessageBoxIcon.Error);
             }
+        }
+
+        // Rejects a name that is PURELY numeric (e.g. "123" or "45.6").
+        // Allows letters, digits, underscores, etc. mixed together (e.g. "redwan_patient"),
+        // as long as it isn't just a number.
+        private bool IsValidName(string name)
+        {
+            return !double.TryParse(name, out _);
+        }
+
+        // Accepts "Male" or "Female" typed into the textbox, any casing
+        private bool IsValidGender(string gender)
+        {
+            return gender.Equals("Male", StringComparison.OrdinalIgnoreCase) ||
+                   gender.Equals("Female", StringComparison.OrdinalIgnoreCase);
+        }
+
+        // Rejects text that is PURELY a number (e.g. "2000" or "12.5").
+        // Text containing numbers alongside words (e.g. "Diabetes since 2000") is allowed.
+        private bool IsValidMedicalHistory(string history)
+        {
+            return !double.TryParse(history, out _);
         }
 
         private void LoadDoctors()

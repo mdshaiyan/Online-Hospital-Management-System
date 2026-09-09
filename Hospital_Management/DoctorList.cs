@@ -36,7 +36,7 @@ namespace Hospital_Management
 
                 Button btn = new Button();
 
-                btn.Text = specialization + " (" + count + " doctors)";
+                btn.Text = specialization + " (" + count + "   doctors)";
                 btn.Width = flpSpecialist.ClientSize.Width - 25;
                 btn.Height = 45;
 
@@ -68,8 +68,8 @@ namespace Hospital_Management
                 Label doctor = new Label();
 
                 doctor.Text =
-                    "Doctor: " + row["DoctorName"] +
-                    "\nSpecialization: " + row["Specialization"] +
+                    "Doctor:   " + row["DoctorName"] +
+                    "\nSpecialization:   " + row["Specialization"] +
                     "\nAge: " + row["Age"];
 
                 doctor.Width = flpSpecialist.ClientSize.Width - 25;
