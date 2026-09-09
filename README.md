@@ -73,6 +73,17 @@ Data Provider: Microsoft.Data.SqlClient 7.0.2
 
 Development Environment: Visual Studio 2022 / 2026 Preview
 
+
+
+ # Team Member Table:
+
+| Name | ID | Contribution |
+| :--- | :--- | :--- |
+| Md.Shaiyan Bean Omar | 24-60126-3 | Form 1 to 4|
+| Redwan Mohd Mukles  | 24-60102-3 |  Form 4 to 8|
+|  S M Taj Ahmed	   | 24-59219-3 |  Form 9| 
+
+
 # CONCLUSION:-
 
 It is Online HOSPITAL MANAGEMENT SYSTEM.The project was built using C# and Windows Forms on the .NET 10 runtime, with Entity Framework Core handling all database interactions and Microsoft SQL Server storing the data.
@@ -82,9 +93,6 @@ Designed with clear role-based access control (RBAC), this system ensures secure
 # Future Outlook :-
 
 This platform establishes a solid foundation for digitized hospital workflows through its role-based architecture for Admins, Doctors, Patients, and Cashiers. Future iterations can easily expand upon this structure to incorporate advanced features such as telemedicine, online payment gateway integrations, and AI-driven diagnostic assistance.
-
-
-
 
 
 
