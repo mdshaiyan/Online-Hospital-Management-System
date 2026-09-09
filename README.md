@@ -79,9 +79,9 @@ Development Environment: Visual Studio 2022 / 2026 Preview
 
 | Name | ID | Contribution |
 | :--- | :--- | :--- |
-| Md.Shaiyan Bean Omar | 24-60126-3 | Form 1 to 4|
-| Redwan Mohd Mukles  | 24-60102-3 |  Form 4 to 8|
-|  S M Taj Ahmed	   | 24-59219-3 |  Form 9| 
+| Md.Shaiyan Bean Omar | 24-60126-3 | Form 1 to 5|
+| Redwan Mohd Mukles  | 24-60102-3 |  Form 6 to 10|
+|  S M Taj Ahmed	   | 24-59219-3 |  Form 11| 
 
 
 # CONCLUSION:-
