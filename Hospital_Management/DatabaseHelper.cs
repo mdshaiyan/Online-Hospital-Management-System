@@ -6,7 +6,7 @@ namespace Hospital_Management
     public static class DatabaseHelper
     {
         private static readonly string connectionString =
-    @"Server=(localdb)\MSSQLLocalDB;Database=HospitalDB;Trusted_Connection=True;TrustServerCertificate=True;Connect Timeout=5;";
+    @"Server=localhost;Database=HospitalDB;Trusted_Connection=True;TrustServerCertificate=True;Connect Timeout=5;";
 
 
 
@@ -572,7 +572,20 @@ namespace Hospital_Management
                 }
             }
         }
+        public static DataTable GetSpecializationCounts()
+        {
+            string query = @"
+                SELECT 
+                    Specialization,
+                    COUNT(*) AS DoctorCount
+                FROM Doctors
+                WHERE Specialization IS NOT NULL
+                  AND Specialization <> ''
+                GROUP BY Specialization
+                ORDER BY Specialization";
 
+            return ExecuteQuery(query);
+        }
         public static DataTable GetPatientByID(int patientID)
         {
             string query = @"
@@ -585,6 +598,36 @@ namespace Hospital_Management
                     WHERE PatientID = @patientID";
 
             return ExecuteQuery(query,new SqlParameter("@patientID", patientID)
+            );
+        }
+
+        public static DataTable GetPatientsWithBloodGroup()
+        {
+            string query = @"
+                SELECT 
+                    PatientName,
+                    BloodGroup
+                FROM Patients
+                ORDER BY BloodGroup, PatientName";
+
+            return ExecuteQuery(query);
+        }
+
+        public static DataTable GetDoctorsBySpecialization(string specialization)
+        {
+            string query = @"
+                SELECT 
+                    DoctorID,
+                    DoctorName,
+                    Specialization,
+                    Age
+                FROM Doctors
+                WHERE Specialization = @specialization
+                ORDER BY DoctorName";
+
+            return ExecuteQuery(
+                query,
+                new SqlParameter("@specialization", specialization)
             );
         }
 

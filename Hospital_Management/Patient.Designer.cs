@@ -47,6 +47,7 @@
             tbxPName = new TextBox();
             menuStrip1 = new MenuStrip();
             backToolStripMenuItem = new ToolStripMenuItem();
+            btnSpecialist = new Button();
             menuStrip1.SuspendLayout();
             SuspendLayout();
             // 
@@ -223,12 +224,23 @@
             backToolStripMenuItem.Text = "Back";
             backToolStripMenuItem.Click += backToolStripMenuItem_Click;
             // 
+            // btnSpecialist
+            // 
+            btnSpecialist.Location = new Point(684, 66);
+            btnSpecialist.Name = "btnSpecialist";
+            btnSpecialist.Size = new Size(75, 23);
+            btnSpecialist.TabIndex = 11;
+            btnSpecialist.Text = "Specialist List";
+            btnSpecialist.UseVisualStyleBackColor = true;
+            btnSpecialist.Click += btnSpecialist_Click;
+            // 
             // Patient
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackgroundImage = Properties.Resources.updated1;
             ClientSize = new Size(800, 450);
+            Controls.Add(btnSpecialist);
             Controls.Add(label7);
             Controls.Add(label6);
             Controls.Add(label5);
@@ -278,5 +290,6 @@
         private TextBox tbxPName;
         private MenuStrip menuStrip1;
         private ToolStripMenuItem backToolStripMenuItem;
+        private Button btnSpecialist;
     }
 }

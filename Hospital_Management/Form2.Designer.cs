@@ -35,6 +35,7 @@
             btnCashier = new Button();
             dgvStaff = new DataGridView();
             btnCalculate = new Button();
+            btnBlood = new Button();
             menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)dgvStaff).BeginInit();
             SuspendLayout();
@@ -49,7 +50,7 @@
             label1.Size = new Size(112, 37);
             label1.TabIndex = 1;
             label1.Text = "Admin";
-            label1.Click += label1_Click;
+  
             // 
             // menuStrip1
             // 
@@ -106,7 +107,7 @@
             dgvStaff.SelectionMode = DataGridViewSelectionMode.FullRowSelect;
             dgvStaff.Size = new Size(709, 232);
             dgvStaff.TabIndex = 6;
-            dgvStaff.CellContentClick += dgvStaff_CellContentClick;
+
             dgvStaff.CellDoubleClick += dgvStaff_CellDoubleClick;
             // 
             // btnCalculate
@@ -122,12 +123,23 @@
             btnCalculate.UseVisualStyleBackColor = false;
             btnCalculate.Click += btnCalculate_Click;
             // 
+            // btnBlood
+            // 
+            btnBlood.Location = new Point(38, 75);
+            btnBlood.Name = "btnBlood";
+            btnBlood.Size = new Size(75, 23);
+            btnBlood.TabIndex = 8;
+            btnBlood.Text = "Blood List";
+            btnBlood.UseVisualStyleBackColor = true;
+            btnBlood.Click += btnBlood_Click;
+            // 
             // adminForm
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackgroundImage = Properties.Resources._574_1024x512;
             ClientSize = new Size(861, 556);
+            Controls.Add(btnBlood);
             Controls.Add(btnCalculate);
             Controls.Add(dgvStaff);
             Controls.Add(btnCashier);
@@ -140,7 +152,7 @@
             Name = "adminForm";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Form2";
-            Load += adminForm_Load;
+
             menuStrip1.ResumeLayout(false);
             menuStrip1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)dgvStaff).EndInit();
@@ -157,5 +169,6 @@
         private ToolStripMenuItem backToolStripMenuItem;
         private DataGridView dgvStaff;
         private Button btnCalculate;
+        private Button btnBlood;
     }
 }

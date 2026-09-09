@@ -125,19 +125,12 @@ namespace Hospital_Management
             this.Hide();
         }
 
-        private void label1_Click(object sender, EventArgs e)
+       
+
+        private void btnBlood_Click(object sender, EventArgs e)
         {
-
-        }
-
-        private void adminForm_Load(object sender, EventArgs e)
-        {
-
-        }
-
-        private void dgvStaff_CellContentClick(object sender, DataGridViewCellEventArgs e)
-        {
-
+            Blood bloodForm = new Blood();
+            bloodForm.Show();
         }
     }
 }

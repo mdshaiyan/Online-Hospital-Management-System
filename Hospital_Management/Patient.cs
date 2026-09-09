@@ -442,5 +442,11 @@ namespace Hospital_Management
         {
 
         }
+
+        private void btnSpecialist_Click(object sender, EventArgs e)
+        {
+            DoctorList doctorListForm = new DoctorList();
+            doctorListForm.Show();
+        }
     }
 }
