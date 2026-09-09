@@ -1,4 +1,6 @@
-﻿using System;
+﻿using Microsoft.Data.SqlClient;
+using System;
+using System.Text.RegularExpressions;
 using System.Windows.Forms;
 
 namespace Hospital_Management
@@ -28,13 +30,51 @@ namespace Hospital_Management
             string username = tbxSName.Text.Trim();
             string password = tbxSPass.Text.Trim();
 
-            // Check username and password
+            // Check username and password are not empty
             if (string.IsNullOrWhiteSpace(username) ||
                 string.IsNullOrWhiteSpace(password))
             {
                 MessageBox.Show(
                     "Please fill in all fields.",
                     "Missing Information",
+                    MessageBoxButtons.OK,
+                    MessageBoxIcon.Warning);
+
+                return;
+            }
+
+            // Reject purely numeric usernames (e.g. "12345")
+            if (username.All(char.IsDigit))
+            {
+                MessageBox.Show(
+                    "Username cannot consist of numbers only. Please include at least one letter.",
+                    "Invalid Username",
+                    MessageBoxButtons.OK,
+                    MessageBoxIcon.Warning);
+
+                return;
+            }
+
+            // Optional but recommended: restrict to sensible characters only
+            // (letters, digits, underscore), so usernames like "###" or "!!!" are also blocked
+            if (!Regex.IsMatch(username, @"^[a-zA-Z][a-zA-Z0-9_]{2,19}$"))
+            {
+                MessageBox.Show(
+                    "Username must start with a letter and be 3-20 characters long " +
+                    "(letters, numbers, underscores only).",
+                    "Invalid Username",
+                    MessageBoxButtons.OK,
+                    MessageBoxIcon.Warning);
+
+                return;
+            }
+
+            // Minimum password length as a sanity check
+            if (password.Length < 6)
+            {
+                MessageBox.Show(
+                    "Password must be at least 6 characters long.",
+                    "Weak Password",
                     MessageBoxButtons.OK,
                     MessageBoxIcon.Warning);
 
@@ -57,7 +97,6 @@ namespace Hospital_Management
 
             try
             {
-                // Check if username already exists
                 if (DatabaseHelper.UsernameExists(username))
                 {
                     MessageBox.Show(
@@ -69,9 +108,7 @@ namespace Hospital_Management
                     return;
                 }
 
-                // Create account
-                bool success =
-                    DatabaseHelper.SignUp(username, password, role);
+                bool success = DatabaseHelper.SignUp(username, password, role);
 
                 if (success)
                 {
@@ -81,7 +118,6 @@ namespace Hospital_Management
                         MessageBoxButtons.OK,
                         MessageBoxIcon.Information);
 
-                    // Return to existing login form
                     foreach (Form form in Application.OpenForms)
                     {
                         if (form is mainForm)
@@ -92,7 +128,6 @@ namespace Hospital_Management
                         }
                     }
 
-                    // Fallback if mainForm is not already open
                     mainForm mForm = new mainForm();
                     mForm.Show();
                     this.Close();
@@ -106,11 +141,19 @@ namespace Hospital_Management
                         MessageBoxIcon.Error);
                 }
             }
+            catch (SqlException sqlEx)
+            {
+                MessageBox.Show(
+                    "Database error:\n\n" + sqlEx.Message,
+                    "Database Error",
+                    MessageBoxButtons.OK,
+                    MessageBoxIcon.Error);
+            }
             catch (Exception ex)
             {
                 MessageBox.Show(
-                    "Database error:\n\n" + ex.Message,
-                    "Database Error",
+                    "Unexpected error:\n\n" + ex.Message,
+                    "Error",
                     MessageBoxButtons.OK,
                     MessageBoxIcon.Error);
             }
