@@ -16,6 +16,7 @@ namespace Hospital_Management
         {
             InitializeComponent();
             dgvPatient.CellContentClick += dgvPatient_CellContentClick;
+            dgvPatient.AutoGenerateColumns = false;
         }
 
         private void doctorForm_Load(object sender, EventArgs e)

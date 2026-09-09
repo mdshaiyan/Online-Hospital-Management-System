@@ -6,7 +6,7 @@ namespace Hospital_Management
     public static class DatabaseHelper
     {
         private static readonly string connectionString =
-    @"Server=(localdb)\MSSQLLocalDB;Database=HospitalDB;Trusted_Connection=True;TrustServerCertificate=True;Connect Timeout=5;";
+    @"Server=localhost;Database=HospitalDB;Trusted_Connection=True;TrustServerCertificate=True;Connect Timeout=5;";
 
 
 
@@ -244,31 +244,54 @@ namespace Hospital_Management
 
         public static DataTable SearchPatient(string patient)
         {
-            string query = @"
-               SELECT
-                    PatientID,
-                    PatientName,
-                    Age,
-                    Gender,
-                    BloodGroup,
-                    MedicalHistory
-                FROM Patients
-                WHERE PatientID LIKE @search or PatientName LIKE @search";
+            string query;
+            SqlParameter searchParam;
 
-                using (SqlConnection con = GetConnection())
+            // If the input is purely numeric, treat it as an exact PatientID search
+            if (int.TryParse(patient, out int patientID))
+            {
+                query = @"
+           SELECT
+                PatientID,
+                PatientName,
+                Age,
+                Gender,
+                BloodGroup,
+                MedicalHistory
+            FROM Patients
+            WHERE PatientID = @search";
+
+                searchParam = new SqlParameter("@search", patientID);
+            }
+            else
+            {
+                // Otherwise, treat it as a name search
+                query = @"
+           SELECT
+                PatientID,
+                PatientName,
+                Age,
+                Gender,
+                BloodGroup,
+                MedicalHistory
+            FROM Patients
+            WHERE PatientName LIKE @search";
+
+                searchParam = new SqlParameter("@search", "%" + patient + "%");
+            }
+
+            using (SqlConnection con = GetConnection())
             {
                 con.Open();
 
                 using (SqlCommand cmd = new SqlCommand(query, con))
                 {
-                    cmd.Parameters.AddWithValue("@search", "%" + patient + "%");
+                    cmd.Parameters.Add(searchParam);
 
                     using (SqlDataAdapter adapter = new SqlDataAdapter(cmd))
                     {
                         DataTable table = new DataTable();
-
                         adapter.Fill(table);
-
                         return table;
                     }
                 }
@@ -276,7 +299,6 @@ namespace Hospital_Management
         }
 
 
-  
 
 
         public static bool AddPatient(string name,int age,string gender,string bloodGroup,string medicalHistory)
